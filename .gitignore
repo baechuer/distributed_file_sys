@@ -1,0 +1,82 @@
+# ==============================
+# Go build artifacts
+# ==============================
+
+# 编译产物
+bin/
+dist/
+build/
+
+# Go test binary
+*.test
+
+# 覆盖率文件
+coverage.out
+coverage.txt
+*.coverprofile
+
+# Go workspace
+go.work
+go.work.sum
+
+# ==============================
+# Dependency directories
+# ==============================
+
+# vendor 目录（如果你不用 vendor，就忽略它）
+vendor/
+
+# ==============================
+# OS / Editor
+# ==============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Environment / secrets
+# ==============================
+
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# ==============================
+# Temporary
+# ==============================
+
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Binary files
+# ==============================
+
+*.exe
+*.dll
+*.so
+*.dylib

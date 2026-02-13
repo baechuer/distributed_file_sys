@@ -1,12 +1,12 @@
 build:
-	go build -o bin/fs main.go
+	@go build -o bin/fs main.go
 
 run: build
-	./bin/fs
+	@./bin/fs
 
 test:
-	go test ./... -v
+	@go test ./... -v
 
 clean:
-	rm -rf bin
+	@rm -rf bin
 
