@@ -4,8 +4,10 @@
 
 # 编译产物
 bin/
+bin
 dist/
 build/
+ggnetwork/
 
 # Go test binary
 *.test

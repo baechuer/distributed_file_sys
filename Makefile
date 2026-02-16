@@ -5,7 +5,7 @@ run: build
 	@./bin/fs
 
 test:
-	@go test ./... -v
+	go test ./... -v
 
 clean:
 	@rm -rf bin
